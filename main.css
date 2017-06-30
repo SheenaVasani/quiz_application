@@ -1,0 +1,43 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    text-align: center;
+    
+    font-size: 50px;
+    width: 1000px;
+    background-color: pink;
+    font-family: 'Open Sans'
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    color: black;
+}
+
+.nextbutton {
+    background-color: white;
+    width: 55px;
+    height: 35px;
+    color: white;
+    text-align: center
+}
+
+.btn1 {
+    background-color:white;
+}
+
+.btn2 {
+    background-color: white;
+}
+
+.btn3 {
+    background-color: white;
+}
+
+.btn4 {
+    background-color: white;
+}
