@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="startPage">
+
+            <h1>Capitals & Countries </h1>
+            <h2>How wordly are you really? Let's find out! </h2>
+            <button class="start">START</button>
+
+        </div>
+        <div class="questionsPage hidden">
+
+
+            <h1 id="questionAsk"></h1>
+
+            <div class='answerButtons'>
+                <form action="">
+                    <fieldset>
+                        <legend>Select the correct answer</legend>
+                        <button class="btn btn1" value="0" type="submit"></button>
+                        <button class="btn btn2" value="1" type="submit"></button>
+                        <button class="btn btn3" value="2" type="submit"></button>
+                        <button class="btn btn4" value="3" type="submit"></button>
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+        <div class="feedbackPage hidden">
+
+            <h2>You got it right/wrong</h2>
+            <br></br>
+            <button class="nextButton">NEXT</button>
+
+        </div>
+        <div class="finalPage hidden">
+            
+            <h2>This is the final page</h2>
+          <h3> Text here </h3>
+         
+            <button class="resetButton">TRY AGAIN!! </button>
+            <br></br>
+       
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
